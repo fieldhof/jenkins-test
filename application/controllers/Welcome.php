@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
-namespace Controller
+namespace Controller;
 
 class Welcome extends CI_Controller
 {
