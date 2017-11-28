@@ -26,6 +26,6 @@ class Welcome extends CI_Controller {
 	public function add()
 	{
 		$result = 1+1;
-		return $result;
+		echo $result;
 	}
 }
