@@ -63,7 +63,7 @@
 
             <!-- A generation process consists of one or more build tasks and of (optional) enrich sources -->
 
-            <enrich base="${basedir}/build">
+            <enrich base="${basedir}/build/logs">
                 <!-- @base - (Base-)Directory of datafiles used for enrich process -->
 
                 <!--<source type="...">-->
@@ -75,9 +75,10 @@
                 <!--</source> -->
 
                 <!-- add phploc output -->
-                <!--
-                <source type="phploc" />
-                -->
+                
+                <source type="phploc">
+                	<file name="phploc.xml" />
+		</source>
 
                 <!-- git vcs information -->
                 <!--
