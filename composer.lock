@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "92e0721d218b40cc7b9c4c61c76b51c9",
+    "content-hash": "36bd3b0a8cde9208aab44987245c7b99",
     "packages": [],
     "packages-dev": [
         {
@@ -63,16 +63,16 @@
         },
         {
             "name": "kenjis/ci-phpunit-test",
-            "version": "v0.15.0",
+            "version": "v0.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/kenjis/ci-phpunit-test.git",
-                "reference": "799b5ee7f554e67362bf3bbcf6d187f33aba8b6c"
+                "reference": "96358beb800ce201858eec5a9471eec34f548a73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kenjis/ci-phpunit-test/zipball/799b5ee7f554e67362bf3bbcf6d187f33aba8b6c",
-                "reference": "799b5ee7f554e67362bf3bbcf6d187f33aba8b6c",
+                "url": "https://api.github.com/repos/kenjis/ci-phpunit-test/zipball/96358beb800ce201858eec5a9471eec34f548a73",
+                "reference": "96358beb800ce201858eec5a9471eec34f548a73",
                 "shasum": ""
             },
             "require": {
@@ -104,7 +104,7 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2017-04-22T23:55:43+00:00"
+            "time": "2017-02-09T08:11:58+00:00"
         },
         {
             "name": "mikey179/vfsStream",
