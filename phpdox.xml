@@ -95,6 +95,13 @@
                 </source>
                 -->
 
+                <!-- Checkstyle -->
+
+                <source type="checkstyle">
+                    <file name="checkstyle.xml" />
+                </source>
+
+
                 <!-- PHPMessDetector -->
                 <!--
                 <source type="pmd">
