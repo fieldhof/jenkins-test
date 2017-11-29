@@ -42,8 +42,10 @@
 
             <!--  <include / exclude filter for filelist generator, mask must follow fnmatch() requirements  -->
             <!--  Multiple elements can be added to define more than one mask per filter -->
-            <include mask="*.php" />
-            <exclude mask="" />
+            <include mask="controllers/**.php" />
+            <include mask="models/**.php" />
+            <include mask="views/**.php" />
+            <include mask="language/**.php" />
 
             <!--  How to handle inheritance -->
             <inheritance resolve="true">
