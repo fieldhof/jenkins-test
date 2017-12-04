@@ -10,6 +10,10 @@
 
 class Welcome_test extends TestCase
 {
+	public function test_onetwo() {
+		$this->assertEquals('1', '2');
+	}
+
 	public function test_index()
 	{
 		$output = $this->request('GET', 'welcome/index');
