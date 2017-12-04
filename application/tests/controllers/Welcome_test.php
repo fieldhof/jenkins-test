@@ -24,6 +24,10 @@ class Welcome_test extends TestCase
 		$this->assertEquals('1', '1', "Dude where did it go wrong");
 	}
 
+	public function test_test2() {
+		$this->assertEquals('1', '1', "Dude where did it go wrong");
+	}
+
 	public function test_method_404()
 	{
 		$this->request('GET', 'welcome/method_not_exist');
